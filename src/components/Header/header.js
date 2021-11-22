@@ -1,7 +1,8 @@
 import Navigation from "./navigation/navigation"
 import Section from "./section"
 
-function Header() {
+function Header({location}) {
+    let pathname = location.pathname
     return (
         <header>
             <div className="header-top">
@@ -18,7 +19,7 @@ function Header() {
                         </div>
                     </div>
                 </div>
-                <Section/>
+                <Section pathName={pathname}/>
             </div>
         </header>
     )
