@@ -12,8 +12,9 @@ function Navigation() {
                             <Categories />
 
                             <li className="active"> <a href="index.html">Home</a></li>
+                            <li> <a href="index.html">Last Products</a></li>
+                            <li> <a href="index.html">Create Product</a></li>
 
-                            <li> <a className="nav" href="about.html">Last Products</a> </li>
                             <li> <a className="nav" href="gallery.html">Partners</a> </li>
                             <li> <a className="nav" href="contact.html">About Us</a> </li>
 
