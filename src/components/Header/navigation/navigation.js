@@ -13,11 +13,11 @@ function Navigation() {
 
                             <li className="active"> <a href="index.html">Home</a></li>
 
-                            <li> <a className="nav" href="about.html">About</a> </li>
-                            <li> <a className="nav" href="concerts.html">Concerts </a> </li>
-                            <li> <a className="nav" href="gallery.html">Gallery</a> </li>
-                            <li> <a className="nav" href="contact.html">Contact</a> </li>
+                            <li> <a className="nav" href="about.html">Last Products</a> </li>
+                            <li> <a className="nav" href="gallery.html">Partners</a> </li>
+                            <li> <a className="nav" href="contact.html">About Us</a> </li>
 
+                            <li> <a className="nav" href="#contact">My account</a> </li>
                             <li> <a className="nav" href="#contact">login</a> </li>
                             <li> <a className="nav" href="#contact">Register</a> </li>
                             <li> <a className="nav" href="#contact">Logout</a> </li>
