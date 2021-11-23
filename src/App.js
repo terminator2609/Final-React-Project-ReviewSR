@@ -11,6 +11,7 @@ function App() {
       <Switch>
         <Route to="/" exact component={Header} />
         <Route to="/AboutUs" component={Header} />
+        <Route to="/auth/register" component={Header}/>
       </Switch>
 
       <Footer />

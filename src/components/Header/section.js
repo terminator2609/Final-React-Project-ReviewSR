@@ -1,5 +1,6 @@
 import HomeSection from "./HomePage"
 import AboutUS from "./aboutUs"
+import Register from "../auth/register"
 
 function Section({ pathName }) {
     
@@ -13,6 +14,7 @@ function Section({ pathName }) {
                 </ol>
                 {pathName === "/AboutUs" ? <AboutUS/> : ""}
                 {pathName === "/" ? <HomeSection /> : ""}
+                {pathName === "/auth/register" ? <Register /> : ""}
             </div>
         </section>
     )
