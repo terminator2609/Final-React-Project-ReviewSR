@@ -8,7 +8,7 @@ import GamingAndPeriphery from "./GamingAndPeriphery"
 
 function Categories() {
     return (
-        <li className="catalog"> <a className="catalogTitle" href="index.html">Categories</a>
+        <li className="catalog"> <a className="catalogTitle">Categories</a>
             <div className="categories">
                 <ul>
                     <li>
