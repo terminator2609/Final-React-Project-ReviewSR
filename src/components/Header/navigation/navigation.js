@@ -1,5 +1,5 @@
 import Categories from "./categories/categories"
-import {NavLink} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 function Navigation() {
     return (
@@ -20,7 +20,7 @@ function Navigation() {
                             <li><NavLink to="/AboutUs" activeClassName="activePage">About Us</NavLink></li>
 
                             <li> <a className="nav" href="#contact">My account</a> </li>
-                            <li> <a className="nav" href="#contact">Login</a> </li>
+                            <li> <NavLink to="/auth/login" exact activeClassName="activePage">Login</NavLink> </li>
                             <li> <NavLink to="/auth/register" activeClassName="activePage">Register</NavLink> </li>
                             <li> <a className="nav" href="#contact">Logout</a> </li>
 
