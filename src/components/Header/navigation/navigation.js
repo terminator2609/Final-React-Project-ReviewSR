@@ -1,5 +1,5 @@
 import Categories from "./categories/categories"
-import {Link} from "react-router-dom"
+import {Link, NavLink} from "react-router-dom"
 
 function Navigation() {
     return (
@@ -12,12 +12,12 @@ function Navigation() {
 
                             <Categories />
 
-                            <li><Link to="/">Home</Link></li>
+                            <li><NavLink to="/" exact activeClassName="activePage">Home</NavLink></li>
                             <li> <a href="index.html">Last Products</a></li>
                             <li> <a href="index.html">Create Product</a></li>
 
                             <li> <a className="nav" href="gallery.html">Partners</a> </li>
-                            <li><Link to="/AboutUs">About Us</Link></li>
+                            <li><NavLink to="/AboutUs" activeClassName="activePage">About Us</NavLink></li>
 
                             <li> <a className="nav" href="#contact">My account</a> </li>
                             <li> <a className="nav" href="#contact">login</a> </li>
