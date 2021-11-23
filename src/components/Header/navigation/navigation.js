@@ -22,7 +22,7 @@ function Navigation() {
                             <li> <a className="nav" href="#contact">My account</a> </li>
                             <li> <NavLink to="/auth/login" exact activeClassName="activePage">Login</NavLink> </li>
                             <li> <NavLink to="/auth/register" activeClassName="activePage">Register</NavLink> </li>
-                            <li> <a className="nav" href="#contact">Logout</a> </li>
+                            <li> <NavLink to="/">Logout</NavLink> </li>
 
                             <li> <a className="last_manu" href="#"><img src="images/search_icon.png" alt="#" /></a> </li>
 
