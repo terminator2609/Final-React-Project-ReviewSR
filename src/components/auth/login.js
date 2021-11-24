@@ -1,28 +1,28 @@
 function Login() {
     return (
-        <div class="container-register">
-            <div class="title-register">Login</div>
-            <div class="content-register">
+        <div className="container-register">
+            <div className="title-register">Login</div>
+            <div className="content-register">
                 <form action="#">
-                    <div class="user-details">
-                        <div class="input-box">
-                            <span class="details">Username</span>
+                    <div className="user-details">
+                        <div className="input-box">
+                            <span className="details">Username</span>
                             <input type="text" placeholder="Enter your username" required />
                         </div>
-                        <div class="input-box">
-                            <span class="details">Email</span>
+                        <div className="input-box">
+                            <span className="details">Email</span>
                             <input type="text" placeholder="Enter your email" required />
                         </div>
-                        <div class="input-box">
-                            <span class="details">Password</span>
+                        <div className="input-box">
+                            <span className="details">Password</span>
                             <input type="text" placeholder="Enter your password" required />
                         </div>
-                        <div class="input-box">
-                            <span class="details">Confirm Password</span>
+                        <div className="input-box">
+                            <span className="details">Confirm Password</span>
                             <input type="text" placeholder="Confirm your password" required />
                         </div>
                     </div>
-                    <div class="button">
+                    <div className="button">
                         <input type="submit" value="Register" />
                     </div>
                 </form>
