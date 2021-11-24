@@ -14,7 +14,7 @@ function Navigation() {
 
                             <li><NavLink to="/" exact activeClassName="activePage">Home</NavLink></li>
                             <li> <a href="index.html">Last Products</a></li>
-                            <li> <a href="index.html">Create Product</a></li>
+                            <li> <NavLink to="/createProduct">Create Product</NavLink></li>
 
                             <li> <a className="nav" href="gallery.html">Partners</a> </li>
                             <li><NavLink to="/AboutUs" activeClassName="activePage">About Us</NavLink></li>
