@@ -2,7 +2,7 @@ import HomeSection from "./HomePage";
 import AboutUS from "./aboutUs";
 import Register from "../auth/register";
 import Login from "../auth/login";
-import createProduct from "../createProduct/createProduct";
+import CreateProduct from "../createProduct/createProduct";
 
 function Section({ pathName }) {
   return (
@@ -21,7 +21,7 @@ function Section({ pathName }) {
         {pathName === "/" ? <HomeSection /> : ""}
         {pathName === "/auth/register" ? <Register /> : ""}
         {pathName === "/auth/login" ? <Login /> : ""}
-        {pathName === "/createProduct" ? <createProduct /> : ""}
+        {pathName === "/createProduct" ? <CreateProduct /> : ""}
       </div>
     </section>
   );

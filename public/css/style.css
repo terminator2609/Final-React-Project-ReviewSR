@@ -1893,3 +1893,31 @@ form .user-details .input-box{
     color: #ec0dec;
 }
 
+
+.create-product-filters  {
+    border-style: groove;
+}
+
+.create-product-filters  ul {
+    list-style: none;
+    margin-left: 400px;
+}
+
+.create-product-filters  ul li {
+    display: inline-block;
+}
+
+
+.create-product-filters  ul li a {
+    padding: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in;
+}
+
+
+
