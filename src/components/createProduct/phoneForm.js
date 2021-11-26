@@ -28,8 +28,8 @@ function PhoneForm() {
                             </div>
                             <div className="input-box">
                                 <span className="details">Names</span>
-                                <input type="text" id="name" name="name" placeholder="Enter name of brand"/>
-                                <input type="text" id="model" name="model" placeholder="Enter name of model"/>
+                                <input type="text" id="name" name="name" placeholder="Enter name of brand" />
+                                <input type="text" id="model" name="model" placeholder="Enter name of model" />
                             </div>
                             <div className="input-box">
                                 <span className="details">Release</span>
@@ -40,7 +40,7 @@ function PhoneForm() {
                                 <input type="text" id="dimension" name="dimension" placeholder="Enter information for dimensions" />
                                 <input type="text" id="weight" name="weight" placeholder="Enter information for weight" />
                                 <input type="text" id="build" name="build" placeholder="Enter information for materials on the build. Example: Front:..., Back:...., Sideways:....." />
-                                <input type="text" id="sim" name="sim" placeholder="Enter information for sim"/>
+                                <input type="text" id="sim" name="sim" placeholder="Enter information for sim" />
                             </div>
                             <div className="input-box">
                                 <span className="details">Display</span>
@@ -117,7 +117,13 @@ function PhoneForm() {
                                 <span className="details">MISC</span>
                                 <input type="text" id="color" name="color" placeholder="Enter info for colors" required />
                             </div>
+                            <div className="input-box">
+                                <span className="details">Description</span>
+                                <input type="text" id="Other-Info" name="Other-Info" placeholder="Enter other info" required />
+                                <input type="text" id="impression" name="impression" placeholder="Enter your impression" required />
+                            </div>
                         </div>
+
                         <div className="gender-details">
                             <input type="checkbox" name="desktop.bg" id="dot-1" />
                             <input type="checkbox" name="ozone.bg" id="dot-2" />
@@ -129,22 +135,22 @@ function PhoneForm() {
                                 <label htmlFor="dot-1">
                                     <span className="dot one"></span>
                                     <span className="gender">Desktop.bg</span>
-                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{display: "none"}} />
+                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{ display: "none" }} />
                                 </label>
                                 <label htmlFor="dot-2">
                                     <span className="dot two"></span>
                                     <span className="gender">Ozone.bg</span>
-                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{display: "none"}}/>
+                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{ display: "none" }} />
                                 </label>
                                 <label htmlFor="dot-3">
                                     <span className="dot three"></span>
                                     <span className="gender">Gplay.bg</span>
-                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{display: "none"}} />
+                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{ display: "none" }} />
                                 </label>
                                 <label htmlFor="dot-4">
                                     <span className="dot four"></span>
                                     <span className="gender">Ardes.bg</span>
-                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{display: "none"}} />
+                                    <input type="text" name="link" id="link" placeholder="Enter link to product on site on my partner" style={{ display: "none" }} />
                                 </label>
                             </div>
                         </div>
