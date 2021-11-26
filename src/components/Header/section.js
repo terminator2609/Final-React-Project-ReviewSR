@@ -3,6 +3,7 @@ import AboutUS from "./aboutUs";
 import Register from "../auth/register";
 import Login from "../auth/login";
 import CreateProduct from "../createProduct/createProduct";
+import PhoneForm from "../createProduct/phoneForm";
 
 function Section({ pathName }) {
   return (
@@ -22,6 +23,8 @@ function Section({ pathName }) {
         {pathName === "/auth/register" ? <Register /> : ""}
         {pathName === "/auth/login" ? <Login /> : ""}
         {pathName === "/createProduct" ? <CreateProduct /> : ""}
+        {pathName === "/createProduct/mobileDevice" ? <PhoneForm /> : ""}
+      
       </div>
     </section>
   );

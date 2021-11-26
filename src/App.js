@@ -10,7 +10,8 @@ function App() {
         <Route to="/AboutUs" component={Header} />
         <Route to="/auth/register" exact component={Header}/>
         <Route to="/auth/login" component={Header}/>
-        <Route to="/createProduct" component={Header}/>
+        <Route to="/createProduct" exact component={Header}/>
+        <Route to="/createProduct/mobileDevice"  component={Header}/>
       </Switch>
 
       <Footer />

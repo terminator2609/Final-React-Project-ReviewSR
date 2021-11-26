@@ -1,10 +1,14 @@
+import { NavLink } from "react-router-dom"
+import PhoneForm from "./phoneForm"
+
+
 function CreateProduct() {
 
     return (
         <div className="create-product-filters">
             <ul>
                 <li>
-                    <a>Mobile Device</a>
+                    <NavLink to="/createProduct/mobileDevice">Mobile Device</NavLink>
                 </li>
 
                 <li>
