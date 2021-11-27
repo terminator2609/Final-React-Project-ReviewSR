@@ -155,7 +155,7 @@ function PhoneForm() {
                             </div>
                         </div>
                         <div className="button">
-                            <input type="submit" value="Register" />
+                            <input type="submit" value="Create" />
                         </div>
                     </form>
                 </div>
