@@ -8,10 +8,11 @@ function App() {
       <Switch>
         <Route to="/" exact component={Header} />
         <Route to="/AboutUs" component={Header} />
-        <Route to="/auth/register" exact component={Header}/>
-        <Route to="/auth/login" component={Header}/>
-        <Route to="/createProduct" exact component={Header}/>
-        <Route to="/createProduct/mobileDevice"  component={Header}/>
+        <Route to="/auth/register" exact component={Header} />
+        <Route to="/auth/login" component={Header} />
+        <Route to="/createProduct" exact component={Header} />
+        <Route to="/createProduct/mobileDevice" exact component={Header} />
+        <Route to="/createProduct/createComputer" exact component={Header} />
       </Switch>
 
       <Footer />

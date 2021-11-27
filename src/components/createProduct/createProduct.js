@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom"
-import PhoneForm from "./phoneForm"
-
 
 function CreateProduct() {
 
@@ -13,6 +11,13 @@ function CreateProduct() {
 
                 <li>
                     <a>Computers & Components</a>
+                    <div className="categories-forms">
+                        <ul>
+                            <li><NavLink to="/createProduct/createComputer">Computer</NavLink></li>
+                            <li><a>Laptop</a></li>
+                            <li><a>Components</a></li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li>
