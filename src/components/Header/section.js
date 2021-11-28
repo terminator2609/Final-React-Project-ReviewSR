@@ -6,6 +6,7 @@ import CreateProduct from "../createProduct/createProduct";
 import PhoneForm from "../createProduct/phoneForm";
 import ComputerForm from "../createProduct/computerForm"
 import LaptopForm from "../createProduct/laptopForm"
+import CreateComponent from "../createProduct/createCompComponent"
 
 function Section({ pathName }) {
   return (
@@ -28,7 +29,7 @@ function Section({ pathName }) {
         {pathName === "/createProduct/mobileDevice" ? <PhoneForm /> : ""}
         {pathName === "/createProduct/createComputer" ? <ComputerForm /> : ""}
         {pathName === "/createProduct/createLaptop" ? <LaptopForm /> : ""}
-
+        {pathName === "/createProduct/createComponent" ? <CreateComponent /> : ""}
       </div>
     </section>
   );

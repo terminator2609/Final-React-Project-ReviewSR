@@ -15,7 +15,7 @@ function CreateProduct() {
                         <ul>
                             <li><NavLink to="/createProduct/createComputer">Computer</NavLink></li>
                             <li><NavLink to="/createProduct/createLaptop">Laptop</NavLink></li>
-                            <li><a>Components</a></li>
+                            <li><NavLink to="/createProduct/createComponent">Components</NavLink></li>
                         </ul>
                     </div>
                 </li>
