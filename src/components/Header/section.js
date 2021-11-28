@@ -7,6 +7,19 @@ import PhoneForm from "../createProduct/phoneForm";
 import ComputerForm from "../createProduct/computerForm"
 import LaptopForm from "../createProduct/laptopForm"
 import CreateComponent from "../createProduct/createCompComponent"
+import CPU from "../createProduct/computerComponents/CPU"
+import GPU from "../createProduct/computerComponents/GPU"
+import Motherboard from "../createProduct/computerComponents/motherboard"
+import SSD from "../createProduct/computerComponents/SSD"
+import Memory from "../createProduct/computerComponents/memory"
+import PowerSupply from "../createProduct/computerComponents/powerSupply"
+import HDD from "../createProduct/computerComponents/HDD"
+import DVD from "../createProduct/computerComponents/DVD"
+import AudioCard from "../createProduct/computerComponents/audioCard"
+import FANS from "../createProduct/computerComponents/FANS"
+import Coolers from "../createProduct/computerComponents/Coolers"
+import WIFEAdapter from "../createProduct/computerComponents/WIFEAdapter"
+import ThermalPaste from "../createProduct/computerComponents/ThermalPaste"
 
 function Section({ pathName }) {
   return (
@@ -30,6 +43,19 @@ function Section({ pathName }) {
         {pathName === "/createProduct/createComputer" ? <ComputerForm /> : ""}
         {pathName === "/createProduct/createLaptop" ? <LaptopForm /> : ""}
         {pathName === "/createProduct/createComponent" ? <CreateComponent /> : ""}
+        {pathName === "/createProduct/createComponent/createCPU" ? <CPU /> : ""}
+        {pathName === "/createProduct/createComponent/createGPU" ? <GPU /> : ""}
+        {pathName === "/createProduct/createComponent/createMotherboard" ? <Motherboard /> : ""}
+        {pathName === "/createProduct/createComponent/createSSD" ? <SSD /> : ""}
+        {pathName === "/createProduct/createComponent/createMemory" ? <Memory /> : ""}
+        {pathName === "/createProduct/createComponent/createPowerSupply" ? <PowerSupply /> : ""}
+        {pathName === "/createProduct/createComponent/createHDD" ? <HDD /> : ""}
+        {pathName === "/createProduct/createComponent/createDVD" ? <DVD /> : ""}
+        {pathName === "/createProduct/createComponent/createAudioCard" ? <AudioCard /> : ""}
+        {pathName === "/createProduct/createComponent/createFANS" ? <FANS /> : ""}
+        {pathName === "/createProduct/createComponent/createCoolers" ? <Coolers /> : ""}
+        {pathName === "/createProduct/createComponent/createWIFEAdapters" ? <WIFEAdapter /> : ""}
+        {pathName === "/createProduct/createComponent/createThermalPaste" ? <ThermalPaste /> : ""}
       </div>
     </section>
   );

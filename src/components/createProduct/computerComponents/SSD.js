@@ -1,12 +1,12 @@
 import CreateProduct from "../createProduct"
 
-function CPU() {
+function SSD() {
 
     return (
         <div>
             <CreateProduct />
             <div className="container-create-mobile-device">
-                <div className="title">Create CPU</div>
+                <div className="title">Create SSD</div>
                 <div className="content">
                     <form action="#">
                         <div className="details-box">
@@ -57,7 +57,7 @@ function CPU() {
                                     <option>No</option>
                                 </select>
                                 <input type="text" id="SSD" name="SSD" placeholder="Enter info for SSD" />
-                                <input type="text" id="power-supply" name="power-supply" placeholder="Enter brand, model, cert, watts on PSU"/>
+                                <input type="text" id="power-supply" name="power-supply" placeholder="Enter brand, model, cert, watts on PSU" />
                             </div>
                             <div className="input-box">
                                 <span className="details">Interface</span>
@@ -111,4 +111,4 @@ function CPU() {
     )
 }
 
-export default CPU
+export default SSD

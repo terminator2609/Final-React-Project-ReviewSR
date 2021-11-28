@@ -1,12 +1,12 @@
 import CreateProduct from "../createProduct"
 
-function CPU() {
+function Coolers() {
 
     return (
         <div>
             <CreateProduct />
             <div className="container-create-mobile-device">
-                <div className="title">Create CPU</div>
+                <div className="title">Create Coolers</div>
                 <div className="content">
                     <form action="#">
                         <div className="details-box">
@@ -111,4 +111,4 @@ function CPU() {
     )
 }
 
-export default CPU
+export default Coolers

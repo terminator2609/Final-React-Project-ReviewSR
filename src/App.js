@@ -15,6 +15,19 @@ function App() {
         <Route to="/createProduct/createComputer" exact component={Header} />
         <Route to="/createProduct/createLaptop" exact component={Header} />
         <Route to="/createProduct/createComponent" exact component={Header} />
+        <Route to="/createProduct/createComponent/createCPU" exact component={Header} />
+        <Route to="/createProduct/createComponent/createGPU" exact component={Header} />
+        <Route to="/createProduct/createComponent/createMotherboard" exact component={Header} />
+        <Route to="/createProduct/createComponent/createSSD" exact component={Header} />
+        <Route to="/createProduct/createComponent/createMemory" exact component={Header} />
+        <Route to="/createProduct/createComponent/createPowerSupply" exact component={Header} />
+        <Route to="/createProduct/createComponent/createHDD" exact component={Header} />
+        <Route to="/createProduct/createComponent/createDVD" exact component={Header} />
+        <Route to="/createProduct/createComponent/createAudioCard" exact component={Header} />
+        <Route to="/createProduct/createComponent/createFANS" exact component={Header} />
+        <Route to="/createProduct/createComponent/createCoolers" exact component={Header} />
+        <Route to="/createProduct/createComponent/createWIFEAdapters" exact component={Header} />
+        <Route to="/createProduct/createComponent/createThermalPaste" exact component={Header} />
       </Switch>
 
       <Footer />
