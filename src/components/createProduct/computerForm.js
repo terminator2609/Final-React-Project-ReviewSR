@@ -21,6 +21,7 @@ function ComputerForm() {
                                     <option>Apple</option>
                                     <option>Fujitsu</option>
                                     <option>Huawei</option>
+                                    <option>G:RIGS</option>
                                     <option>Other</option>
                                 </select>
                             </div>
