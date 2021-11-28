@@ -13,6 +13,7 @@ function App() {
         <Route to="/createProduct" exact component={Header} />
         <Route to="/createProduct/mobileDevice" exact component={Header} />
         <Route to="/createProduct/createComputer" exact component={Header} />
+        <Route to="/createProduct/createLaptop" exact component={Header} />
       </Switch>
 
       <Footer />

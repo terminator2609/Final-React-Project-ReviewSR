@@ -14,7 +14,7 @@ function CreateProduct() {
                     <div className="categories-forms">
                         <ul>
                             <li><NavLink to="/createProduct/createComputer">Computer</NavLink></li>
-                            <li><a>Laptop</a></li>
+                            <li><NavLink to="/createProduct/createLaptop">Laptop</NavLink></li>
                             <li><a>Components</a></li>
                         </ul>
                     </div>
