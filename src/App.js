@@ -20,6 +20,7 @@ function App() {
         <Route to="/createProduct/createComponent/createMotherboard" exact component={Header} />
         <Route to="/createProduct/createComponent/createSSD" exact component={Header} />
         <Route to="/createProduct/createComponent/createMemory" exact component={Header} />
+        <Route to="/createProduct/createComponent/createCase" exact component={Header} />
         <Route to="/createProduct/createComponent/createPowerSupply" exact component={Header} />
         <Route to="/createProduct/createComponent/createHDD" exact component={Header} />
         <Route to="/createProduct/createComponent/createDVD" exact component={Header} />

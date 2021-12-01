@@ -28,6 +28,9 @@ function CreateComponent() {
             case "Memory":
                 history.push("/createProduct/createComponent/createMemory")
                 break
+            case "Case":
+                history.push("/createProduct/createComponent/createCase")
+                break
             case "Power Supply":
                 history.push("/createProduct/createComponent/createPowerSupply")
                 break
@@ -72,6 +75,7 @@ function CreateComponent() {
                                     <option>Motherboard</option>
                                     <option>SSD</option>
                                     <option>Memory</option>
+                                    <option>Case</option>
                                     <option>Power Supply</option>
                                     <option>HDD</option>
                                     <option>DVD</option>

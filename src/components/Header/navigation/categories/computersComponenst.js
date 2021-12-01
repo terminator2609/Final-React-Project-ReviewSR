@@ -101,6 +101,9 @@ function ComputersComponent() {
                         <a href="#">Memory</a>
                     </li>
                     <li>
+                        <a href="#">Case</a>
+                    </li>
+                    <li>
                         <a href="#">Power supply</a>
                     </li>
                     <li>
