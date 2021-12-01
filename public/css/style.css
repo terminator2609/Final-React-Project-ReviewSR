@@ -2099,3 +2099,15 @@ form .details-box .input-box{
 .socketIntelNone {
     display: none;
 }
+
+.categories-forms-tv {
+    display: none;
+}
+
+.create-product-filters ul li:hover .categories-forms-tv {
+    display: block;
+    position: absolute;
+    right: 800px;
+    background-color: #0a0824;
+    border-style: groove;
+}

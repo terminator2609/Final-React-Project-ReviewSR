@@ -21,6 +21,7 @@ import Coolers from "../createProduct/computerComponents/Coolers"
 import WIFEAdapter from "../createProduct/computerComponents/WIFEAdapter"
 import ThermalPaste from "../createProduct/computerComponents/ThermalPaste"
 import Case from "../createProduct/computerComponents/case"
+import Monitor from "../createProduct/monitor"
 
 function Section({ pathName }) {
   return (
@@ -58,6 +59,7 @@ function Section({ pathName }) {
         {pathName === "/createProduct/createComponent/createWIFEAdapters" ? <WIFEAdapter /> : ""}
         {pathName === "/createProduct/createComponent/createThermalPaste" ? <ThermalPaste /> : ""}
         {pathName === "/createProduct/createComponent/createCase" ? <Case /> : ""}
+        {pathName === "/createProduct/createMonitor" ? <Monitor /> : ""}
       </div>
     </section>
   );

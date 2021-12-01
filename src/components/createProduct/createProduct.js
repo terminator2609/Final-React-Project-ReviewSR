@@ -21,11 +21,18 @@ function CreateProduct() {
                 </li>
 
                 <li>
-                    <a>Monitor</a>
+                    <NavLink to="/createProduct/createMonitor">Monitor</NavLink>
                 </li>
 
                 <li>
                     <a>TV & Accessories</a>
+                    <div className="categories-forms-tv">
+                        <ul>
+                            <li><NavLink to="/createProduct/createComputer">TV</NavLink></li>
+                            <li><NavLink to="/createProduct/createLaptop">Video projector</NavLink></li>
+                            <li><NavLink to="/createProduct/createComponent">Video screen</NavLink></li>
+                        </ul>
+                    </div>
                 </li>
 
                 <li>
