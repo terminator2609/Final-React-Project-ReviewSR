@@ -11,57 +11,34 @@ function GPU() {
                     <form action="#">
                         <div className="details-box">
                             <div className="input-box">
-                                <span className="details">Brand</span>
-                                <select>
-                                    <option>Desktop.bg</option>
-                                    <option>Asus</option>
-                                    <option>Acer</option>
-                                    <option>Lenovo</option>
-                                    <option>Dell</option>
-                                    <option>Apple</option>
-                                    <option>Fujitsu</option>
-                                    <option>Huawei</option>
-                                    <option>G:RIGS</option>
-                                    <option>Other</option>
-                                </select>
-                            </div>
-                            <div className="input-box">
                                 <span className="details">Names</span>
                                 <input type="text" id="name" name="name" placeholder="Enter name of brand" />
                                 <input type="text" id="model" name="model" placeholder="Enter name of model" />
                             </div>
                             <div className="input-box">
-                                <span className="details">Suitable for?</span>
-                                <input type="text" id="suitable" name="suitable" placeholder="Enter info for suitable" />
+                                <span className="details">Graphic Processor</span>
+                                <select>
+                                    <option>Nvidia</option>
+                                    <option>AMD</option>
+                                    <option>other</option>
+                                </select>
+                                <input type="text" id="external-video-card" name="external-video-card" placeholder="Enter info for other graphic processor" />
                             </div>
                             <div className="input-box">
-                                <span className="details">Hardware</span>
-                                <input type="text" id="motherboard" name="motherboard" placeholder="Enter motherboard model and brand" required />
-                                <input type="text" id="CPU" name="CPU" placeholder="Enter CPU brand and model" required />
-                                <input type="text" id="RAM" name="RAM" placeholder="Enter info for RAM" required />
-                                <label>External video card?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="external-video-card" name="external-video-card" placeholder="Enter info for external video card" />
-                                <label>HDD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="HDD" name="HDD" placeholder="Enter info for HDD" />
-                                <label>SSD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="SSD" name="SSD" placeholder="Enter info for SSD" />
-                                <input type="text" id="power-supply" name="power-supply" placeholder="Enter brand, model, cert, watts on PSU"/>
+                                <span className="details">VRAM</span>
+                                <input type="text" id="VRAM" name="VRAM" placeholder="Enter info for VRAM" required />
                             </div>
                             <div className="input-box">
-                                <span className="details">Interface</span>
-                                <input type="text" id="interface" name="interface" placeholder="Enter info for the interface" required />
+                                <span className="details">Type of memory</span>
+                                <input type="text" id="type" name="type" placeholder="Enter info for type of memory" required />
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Rail size</span>
+                                <input type="text" id="type" name="type" placeholder="Enter info for rail size" required />
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Size</span>
+                                <input type="text" id="type" name="type" placeholder="Enter info for size.Example: ATX" required />
                             </div>
                             <div className="input-box">
                                 <span className="details">Description</span>
