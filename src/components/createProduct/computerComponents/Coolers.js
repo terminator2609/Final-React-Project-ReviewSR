@@ -6,22 +6,15 @@ function Coolers() {
         <div>
             <CreateProduct />
             <div className="container-create-mobile-device">
-                <div className="title">Create Coolers</div>
+                <div className="title">Create Cooler</div>
                 <div className="content">
                     <form action="#">
                         <div className="details-box">
                             <div className="input-box">
-                                <span className="details">Brand</span>
+                                <span className="details">Type</span>
                                 <select>
-                                    <option>Desktop.bg</option>
-                                    <option>Asus</option>
-                                    <option>Acer</option>
-                                    <option>Lenovo</option>
-                                    <option>Dell</option>
-                                    <option>Apple</option>
-                                    <option>Fujitsu</option>
-                                    <option>Huawei</option>
-                                    <option>G:RIGS</option>
+                                    <option>Air</option>
+                                    <option>Water</option>
                                     <option>Other</option>
                                 </select>
                             </div>
@@ -32,36 +25,18 @@ function Coolers() {
                             </div>
                             <div className="input-box">
                                 <span className="details">Suitable for?</span>
-                                <input type="text" id="suitable" name="suitable" placeholder="Enter info for suitable" />
+                                <select>
+                                    <option>CPU</option>
+                                    <option>HDD</option>
+                                    <option>Other</option>
+                                </select>
                             </div>
                             <div className="input-box">
-                                <span className="details">Hardware</span>
-                                <input type="text" id="motherboard" name="motherboard" placeholder="Enter motherboard model and brand" required />
-                                <input type="text" id="CPU" name="CPU" placeholder="Enter CPU brand and model" required />
-                                <input type="text" id="RAM" name="RAM" placeholder="Enter info for RAM" required />
-                                <label>External video card?</label>
+                                <span className="details">RGB?</span>
                                 <select>
                                     <option>Yes</option>
                                     <option>No</option>
                                 </select>
-                                <input type="text" id="external-video-card" name="external-video-card" placeholder="Enter info for external video card" />
-                                <label>HDD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="HDD" name="HDD" placeholder="Enter info for HDD" />
-                                <label>SSD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="SSD" name="SSD" placeholder="Enter info for SSD" />
-                                <input type="text" id="power-supply" name="power-supply" placeholder="Enter brand, model, cert, watts on PSU"/>
-                            </div>
-                            <div className="input-box">
-                                <span className="details">Interface</span>
-                                <input type="text" id="interface" name="interface" placeholder="Enter info for the interface" required />
                             </div>
                             <div className="input-box">
                                 <span className="details">Description</span>
