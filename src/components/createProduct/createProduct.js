@@ -28,8 +28,8 @@ function CreateProduct() {
                     <a>TV & Accessories</a>
                     <div className="categories-forms-tv">
                         <ul>
-                            <li><NavLink to="/createProduct/createComputer">TV</NavLink></li>
-                            <li><NavLink to="/createProduct/createLaptop">Video projector</NavLink></li>
+                            <li><NavLink to="/createProduct/createTV">TV</NavLink></li>
+                            <li><NavLink to="/createProduct/createProjector">Video projector</NavLink></li>
                             <li><NavLink to="/createProduct/createComponent">Video screen</NavLink></li>
                         </ul>
                     </div>

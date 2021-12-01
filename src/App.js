@@ -30,6 +30,8 @@ function App() {
         <Route to="/createProduct/createComponent/createWIFEAdapters" exact component={Header} />
         <Route to="/createProduct/createComponent/createThermalPaste" exact component={Header} />
         <Route to="/createProduct/createMonitor" exact component={Header} />
+        <Route to="/createProduct/createTV" exact component={Header} />
+        <Route to="/createProduct/createProject" exact component={Header} />
       </Switch>
 
       <Footer />
