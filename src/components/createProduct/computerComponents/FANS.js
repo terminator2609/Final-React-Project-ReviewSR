@@ -11,57 +11,36 @@ function FANS() {
                     <form action="#">
                         <div className="details-box">
                             <div className="input-box">
-                                <span className="details">Brand</span>
-                                <select>
-                                    <option>Desktop.bg</option>
-                                    <option>Asus</option>
-                                    <option>Acer</option>
-                                    <option>Lenovo</option>
-                                    <option>Dell</option>
-                                    <option>Apple</option>
-                                    <option>Fujitsu</option>
-                                    <option>Huawei</option>
-                                    <option>G:RIGS</option>
-                                    <option>Other</option>
-                                </select>
-                            </div>
-                            <div className="input-box">
                                 <span className="details">Names</span>
                                 <input type="text" id="name" name="name" placeholder="Enter name of brand" />
                                 <input type="text" id="model" name="model" placeholder="Enter name of model" />
                             </div>
                             <div className="input-box">
-                                <span className="details">Suitable for?</span>
-                                <input type="text" id="suitable" name="suitable" placeholder="Enter info for suitable" />
+                                <span className="details">Size(MM)</span>
+                                <input type="text" id="size" name="size" placeholder="Enter info for size in mm" />
                             </div>
                             <div className="input-box">
-                                <span className="details">Hardware</span>
-                                <input type="text" id="motherboard" name="motherboard" placeholder="Enter motherboard model and brand" required />
-                                <input type="text" id="CPU" name="CPU" placeholder="Enter CPU brand and model" required />
-                                <input type="text" id="RAM" name="RAM" placeholder="Enter info for RAM" required />
-                                <label>External video card?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="external-video-card" name="external-video-card" placeholder="Enter info for external video card" />
-                                <label>HDD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="HDD" name="HDD" placeholder="Enter info for HDD" />
-                                <label>SSD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="SSD" name="SSD" placeholder="Enter info for SSD" />
-                                <input type="text" id="power-supply" name="power-supply" placeholder="Enter brand, model, cert, watts on PSU"/>
+                                <span className="details">Revolutions</span>
+                                <input type="text" id="revolutions" name="revolutions" placeholder="Enter info for revolutions" required />
                             </div>
                             <div className="input-box">
-                                <span className="details">Interface</span>
-                                <input type="text" id="interface" name="interface" placeholder="Enter info for the interface" required />
+                                <span className="details">Level on noise</span>
+                                <input type="text" id="level-noise" name="level-noise" placeholder="Enter info for level on noise" required />
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Connector</span>
+                                <input type="text" id="connector" name="connector" placeholder="Enter info for connector" required />
+                            </div>
+                            <div className="input-box">
+                                <span className="details">Air flow</span>
+                                <input type="text" id="air-flow" name="air-flow" placeholder="Enter info for air flow" required />
+                            </div>
+                            <div className="input-box">
+                                <span className="details">RGB</span>
+                                <select>
+                                    <option>Yes</option>
+                                    <option>No</option>
+                                </select>
                             </div>
                             <div className="input-box">
                                 <span className="details">Description</span>
