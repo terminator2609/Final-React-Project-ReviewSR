@@ -2095,3 +2095,7 @@ form .details-box .input-box{
     background-color: #0a0824;
     border-style: groove;
 }
+
+.socketIntelNone {
+    display: none;
+}

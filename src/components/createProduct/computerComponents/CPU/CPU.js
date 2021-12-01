@@ -1,4 +1,6 @@
-import CreateProduct from "../createProduct"
+import CreateProduct from "../../createProduct"
+import IntelSockets from "./Intelsockets"
+import { useState } from "react"
 
 function CPU() {
 
@@ -12,16 +14,10 @@ function CPU() {
                         <div className="details-box">
                             <div className="input-box">
                                 <span className="details">Brand</span>
-                                <select>
-                                    <option>Desktop.bg</option>
-                                    <option>Asus</option>
-                                    <option>Acer</option>
-                                    <option>Lenovo</option>
-                                    <option>Dell</option>
-                                    <option>Apple</option>
-                                    <option>Fujitsu</option>
-                                    <option>Huawei</option>
-                                    <option>G:RIGS</option>
+                                <select name="brand">
+                                    <option>Choose socket!!!</option>
+                                    <option>Intel</option>
+                                    <option>AMD</option>
                                     <option>Other</option>
                                 </select>
                             </div>
@@ -31,37 +27,40 @@ function CPU() {
                                 <input type="text" id="model" name="model" placeholder="Enter name of model" />
                             </div>
                             <div className="input-box">
-                                <span className="details">Suitable for?</span>
-                                <input type="text" id="suitable" name="suitable" placeholder="Enter info for suitable" />
+                                <span className="details">Socket</span>
+                                <select name="sockets">
+                                </select>
+                            </div>
+
+                            <div className="input-box">
+                                <span className="details">Core</span>
+                                <input type="text" id="name-core" name="name-core" placeholder="Enter name of core" required />
+                                <input type="text" id="count-core" name="count" placeholder="Enter count on core: Example: 4 physical / 8 logical" required />
                             </div>
                             <div className="input-box">
-                                <span className="details">Hardware</span>
-                                <input type="text" id="motherboard" name="motherboard" placeholder="Enter motherboard model and brand" required />
-                                <input type="text" id="CPU" name="CPU" placeholder="Enter CPU brand and model" required />
-                                <input type="text" id="RAM" name="RAM" placeholder="Enter info for RAM" required />
-                                <label>External video card?</label>
+                                <span className="details">GRAPHIC CONTROLLER?</span>
                                 <select>
                                     <option>Yes</option>
                                     <option>No</option>
                                 </select>
-                                <input type="text" id="external-video-card" name="external-video-card" placeholder="Enter info for external video card" />
-                                <label>HDD?</label>
+                                <input type="text" id="external-video-card" name="external-video-card" placeholder="Enter info for GRAPHIC CONTROLLER" />
+                            </div>
+
+                            <div className="input-box">
+                                <span className="details">Cooler</span>
                                 <select>
                                     <option>Yes</option>
                                     <option>No</option>
                                 </select>
-                                <input type="text" id="HDD" name="HDD" placeholder="Enter info for HDD" />
-                                <label>SSD?</label>
-                                <select>
-                                    <option>Yes</option>
-                                    <option>No</option>
-                                </select>
-                                <input type="text" id="SSD" name="SSD" placeholder="Enter info for SSD" />
-                                <input type="text" id="power-supply" name="power-supply" placeholder="Enter brand, model, cert, watts on PSU"/>
+                            </div>
+
+                            <div className="input-box">
+                                <span className="details">Cache</span>
+                                <input type="text" id="Other-Info" name="Other-Info" placeholder="Enter other cache" required />
                             </div>
                             <div className="input-box">
-                                <span className="details">Interface</span>
-                                <input type="text" id="interface" name="interface" placeholder="Enter info for the interface" required />
+                                <span className="details">Consumption</span>
+                                <input type="text" id="Other-Info" name="Other-Info" placeholder="Enter info for consumption" required />
                             </div>
                             <div className="input-box">
                                 <span className="details">Description</span>
