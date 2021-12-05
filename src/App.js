@@ -32,6 +32,7 @@ function App() {
         <Route to="/createProduct/createMonitor" exact component={Header} />
         <Route to="/createProduct/createTV" exact component={Header} />
         <Route to="/createProduct/createProject" exact component={Header} />
+        <Route to="/createProduct/createVideoScreen" exact component={Header} />
       </Switch>
 
       <Footer />

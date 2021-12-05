@@ -30,7 +30,7 @@ function CreateProduct() {
                         <ul>
                             <li><NavLink to="/createProduct/createTV">TV</NavLink></li>
                             <li><NavLink to="/createProduct/createProjector">Video projector</NavLink></li>
-                            <li><NavLink to="/createProduct/createComponent">Video screen</NavLink></li>
+                            <li><NavLink to="/createProduct/createVideoScreen">Video screen</NavLink></li>
                         </ul>
                     </div>
                 </li>
