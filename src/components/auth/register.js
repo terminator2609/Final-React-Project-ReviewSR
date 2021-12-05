@@ -10,7 +10,6 @@ function Register() {
 
         const data = Object.fromEntries(new FormData(e.currentTarget))
 
-    
         registerUser(data)
 
         history.push("/")
