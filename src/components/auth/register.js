@@ -1,5 +1,6 @@
 import { useHistory } from "react-router-dom"
 import registerUser from "../../services/RegisterUser"
+import { useEffect } from "react"
 
 function Register() {
 
@@ -11,8 +12,8 @@ function Register() {
         const data = Object.fromEntries(new FormData(e.currentTarget))
 
         registerUser(data)
-
-        history.push("/")
+        
+        history.push("/auth/login")
     }
 
     return (
