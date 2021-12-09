@@ -1,8 +1,12 @@
 import Navigation from "./navigation/navigation"
 import Section from "./section"
+import {useState} from "react"
 
-function Header({location}) {
+function Header({location, match}) {
     let pathname = location.pathname
+
+    let [auth, isAuth] = useState({isAuth: false})
+
     return (
         <header>
             <div className="header-top">
@@ -19,7 +23,7 @@ function Header({location}) {
                         </div>
                     </div>
                 </div>
-                <Section pathName={pathname}/>
+                <Section pathName={pathname} authChecker = {isAuth}/>
             </div>
         </header>
     )

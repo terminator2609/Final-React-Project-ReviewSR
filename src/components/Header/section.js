@@ -25,7 +25,7 @@ import Monitor from "../createProduct/monitor"
 import TV from "../createProduct/TV"
 import Projector from "../createProduct/project";
 
-function Section({ pathName }) {
+function Section({ pathName, authChecker }) {
   return (
     <section className="slider_section">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
@@ -41,7 +41,7 @@ function Section({ pathName }) {
         {pathName === "/AboutUs" ? <AboutUS /> : ""}
         {pathName === "/" ? <HomeSection /> : ""}
         {pathName === "/auth/register" ? <Register /> : ""}
-        {pathName === "/auth/login" ? <Login /> : ""}
+        {pathName === "/auth/login" ? <Login authChecker={authChecker}/> : ""}
         {pathName === "/createProduct" ? <CreateProduct /> : ""}
         {pathName === "/createProduct/mobileDevice" ? <PhoneForm /> : ""}
         {pathName === "/createProduct/createComputer" ? <ComputerForm /> : ""}

@@ -1,8 +1,8 @@
-import {useCookies} from "react-cookie"
+import { useCookies } from "react-cookie"
 import { useHistory } from "react-router-dom"
 import loginUser from "../../services/loginUser"
 
-function Login() {
+function Login({authChecker}) {
     let [cookie, setCookie, removeCookie] = useCookies([])
     let history = useHistory()
 
@@ -12,10 +12,11 @@ function Login() {
         const data = Object.fromEntries(new FormData(e.currentTarget))
 
         loginUser(data)
-        .then((res) => res.json())
-        .then((res) => {
-            setCookie("new_token", res.token, {path: "/"})
-        })
+            .then((res) => res.json())
+            .then((res) => {
+                setCookie("new_token", res.token, { path: "/" })
+                authChecker({isAuth: true})
+            })
 
         history.push("/")
     }
@@ -44,8 +45,8 @@ function Login() {
                         </div>
                         <div className="input-box">
                             <label>Remember Me</label>
-                            <input type="radio" value="Remember Me"/>
-                            
+                            <input type="radio" value="Remember Me" />
+
                         </div>
                     </div>
                     <div className="button">
