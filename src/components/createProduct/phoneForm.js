@@ -1,7 +1,9 @@
 import CreateProduct from "./createProduct"
 import createMobileDevice from "../../services/mobileDeviceService"
+import {useHistory} from "react-router-dom"
 
 function PhoneForm() {
+    const history = useHistory()
 
     const mobilePhoneHandler = (e) => {
         e.preventDefault()
@@ -9,6 +11,9 @@ function PhoneForm() {
         const formData = Object.fromEntries(new FormData(e.currentTarget))
 
         createMobileDevice(formData)
+
+        history.push("/")
+
     }
 
     const desHandler = (e) => {
