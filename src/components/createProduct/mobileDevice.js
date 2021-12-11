@@ -1,8 +1,12 @@
 import CreateProduct from "./createProduct"
 import createMobileDevice from "../../services/mobileDeviceService"
 import {useHistory} from "react-router-dom"
+import {useState} from "react"
 
 function PhoneForm() {
+    let [brand, setBrand] = useState("")
+
+
     const history = useHistory()
 
     const mobilePhoneHandler = (e) => {
@@ -26,6 +30,14 @@ function PhoneForm() {
         }
     }
 
+    const nameHandler = (e) => {
+        if(e.target.value !== "Choose brand!!!" && e.target.value !== "Other") {
+            setBrand(e.target.value)
+        } else {
+            setBrand("")
+        }
+    }
+
 
     return (
         <div>
@@ -44,7 +56,8 @@ function PhoneForm() {
                             </div>
                             <div className="input-box">
                                 <span className="details">Brand</span>
-                                <select name="brand">
+                                <select name="brand" onChange={nameHandler} defaultValue="Choose brand!!!">
+                                    <option>Choose brand!!!</option>
                                     <option>Apple</option>
                                     <option>Samsung</option>
                                     <option>Xiaomi</option>
@@ -54,7 +67,7 @@ function PhoneForm() {
                             </div>
                             <div className="input-box">
                                 <span className="details">Names</span>
-                                <input type="text" id="name" name="name" placeholder="Enter name of brand" required />
+                                <input type="text" id="name" name="name" placeholder="Enter name of brand" value={brand} onChange={nameHandler} required />
                                 <input type="text" id="model" name="model" placeholder="Enter name of model" required />
                             </div>
                             <div className="input-box">

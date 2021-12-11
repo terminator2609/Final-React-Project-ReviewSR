@@ -5,11 +5,9 @@ import {useState} from "react"
 
 function Navigation() {
     let [cookie, useCookie, removeCookie] = useCookies([])
-    let [auth, setAuth] = useState({isAuth: false})
 
     const LogoutHandler = () => {
         removeCookie("new_token")
-        console.log("test")
     }
 
 

@@ -3,7 +3,7 @@ import AboutUS from "./aboutUs";
 import Register from "../auth/register";
 import Login from "../auth/login";
 import CreateProduct from "../createProduct/createProduct";
-import PhoneForm from "../createProduct/phoneForm";
+import PhoneForm from "../createProduct/mobileDevice";
 import ComputerForm from "../createProduct/computerForm"
 import LaptopForm from "../createProduct/laptopForm"
 import CreateComponent from "../createProduct/createCompComponent"

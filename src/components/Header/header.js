@@ -5,7 +5,10 @@ import {useState} from "react"
 function Header({location, match}) {
     let pathname = location.pathname
 
-    let [auth, isAuth] = useState({isAuth: false})
+    let [auth, isAuth] = useState(false)
+
+
+
 
     return (
         <header>
