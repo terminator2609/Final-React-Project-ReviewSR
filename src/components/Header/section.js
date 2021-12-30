@@ -7,7 +7,7 @@ import PhoneForm from "../createProduct/mobileDevice";
 import ComputerForm from "../createProduct/computerForm"
 import LaptopForm from "../createProduct/laptopForm"
 import CreateComponent from "../createProduct/createCompComponent"
-import CPU from "../createProduct/computerComponents/CPU/CPU"
+import CPU from "../createProduct/computerComponents/CPU"
 import GPU from "../createProduct/computerComponents/GPU"
 import Motherboard from "../createProduct/computerComponents/motherboard"
 import SSD from "../createProduct/computerComponents/SSD"
